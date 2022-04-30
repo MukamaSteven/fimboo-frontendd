@@ -1,20 +1,21 @@
 .register {
-    margin-left: 27rem;
-    /* margin-bottom: 7rem; */
-    margin-top: 0.5rem;
-    /* background-color: black; */
-    font-weight: 500;
-  }
-  .registerlink {
-    text-decoration: none;
-    /* margin-left: 2rem; */
-    text-align: center;
-    font-size: 1rem;
-  }
-  
-  .card {
-    /* border-radius: 1rem; */
-    padding-top: 1rem;
-    padding-left: 2rem;
-    /* width: 18rem; */
-  }
+  margin-left: 27rem;
+  /* margin-bottom: 7rem; */
+  margin-top: 0.5rem;
+  /* background-color: black; */
+  font-weight: 500;
+}
+.registerlink {
+  text-decoration: none;
+  /* margin-left: 2rem; */
+  text-align: center;
+  font-size: 1rem;
+}
+
+.card {
+  /* border-radius: 1rem; */
+  padding-top: 1rem;
+  padding-left: 2rem;
+  background-color: #8902a6;
+  /* width: 18rem; */
+}
