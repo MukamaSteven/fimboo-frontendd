@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
 import Spinner from '../../../components/Spinner'
 import { login, reset } from '../../../features/auth/authSlice'
+import './../../pages/login/login.css'
 
 import { Link } from 'react-router-dom'
 import {
@@ -35,12 +36,21 @@ function Login() {
   const { user, isError, isLoading, isSuccess, message } = useSelector((state) => state.auth)
 
   useEffect(() => {
-    if (isError) {
-      toast.error(message)
-    }
+    // toast.error('check well your infor')
+    // if (isError) {
+    // }
+    toast('🦄 Wow so easy!', {
+      position: 'top-right',
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    })
 
     if (isSuccess || user) {
-      navigate('/')
+      navigate('/dashboard')
     }
 
     dispatch(reset())

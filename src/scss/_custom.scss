@@ -1,0 +1,231 @@
+// // Here you can add other styles
+// .container {
+//   background-color: #ffffff;
+// }
+// // .contain {
+// //   position: absolute;
+// // }
+// .main {
+//   background-color: #e9d3d3;
+// }
+// .card {
+//   background-color: #8902a6;
+
+//   //   border-radius:40px;
+// }
+// .owner {
+//   padding-top: 2rem;
+// }
+
+// .fimbooimage {
+//   height: 2.375rem;
+//   width: 11.875rem;
+//   left: 1.125rem;
+//   top: 1.125rem;
+//   margin-bottom: 3rem;
+//   margin-left: 3rem;
+// }
+// .text {
+//   color: #8902a6;
+// }
+// .regbutton {
+//   background-color: #8902a6;
+// }
+
+// table,
+// th {
+//   // border: 1px xsolid;
+//   border: 1px solid #c2cfe0;
+//   box-sizing: border-box;
+//   border-radius: 2px;
+//   font-family: 'Raleway';
+//   font-style: normal;
+//   font-weight: 700, Bold;
+//   font-size: 1rem;
+//   line-height: 14px;
+//   /* identical to box height */
+//   color: #420352;
+// }
+// table {
+//   width: 100%;
+// }
+// th {
+//   text-align: center;
+//   height: 2rem;
+// }
+
+// .business__info {
+//   font-family: Raleway;
+//   font-style: normal;
+//   font-size: 1rem;
+//   font-weight: 700;
+//   line-height: 1.5rem;
+//   color: #80009f;
+//   margin-top: 1rem;
+//   margin-left: 25rem;
+// }
+
+// // .grid-container {
+// //   display: grid;
+// //   grid-template-columns: auto auto;
+// //   gap: 40px;
+// //   padding: 20px;
+// //   border: 1px solid;
+// //   width: 50%;
+// //   margin-left: 30rem;
+// // }
+
+// // .grid-container > p {
+// //   text-align: center;
+// //   padding: 20px 10px;
+// //   font-size: 2rem;
+// //   border: 1px solid;
+// // }
+
+// // .header {
+// //   grid-area: hd;
+// // }
+// // .form_content {
+// //   grid-area: fc;
+// // }
+// // .form_logo {
+// //   grid-area: fl;
+// // }
+// // .form_country {
+// //   grid-area: fcy;
+// // }
+// // .form_province {
+// //   grid-area: fp;
+// // }
+// // .form_district {
+// //   grid-area: fd;
+// // }
+// // .form_cell {
+// //   grid-area: fcl;
+// // }
+// // .form_village {
+// //   grid-area: fv;
+// // }
+// // .form_street {
+// //   grid-area: fs;
+// // }
+// // .form_business {
+// //   grid-area: fb;
+// // }
+// // .form_currency {
+// //   grid-area: fcr;
+// // }
+// // .form_TINnumber {
+// //   grid-area: ft;
+// // }
+// // .form_website {
+// //   grid-area: fw;
+// // }
+// // .grid-container {
+// //   display: grid;
+// //   width: 50rem;
+// //   margin-left: 25rem;
+// //   grid-template-columns: repeat(2, 1fr);
+// //   column-gap: 20px;
+// //   padding: 20px;
+// //   border: 1px solid;
+// //   border-radius: 5px;
+// //   grid-template-areas:
+// //     'hd hd'
+// //     'fc  fl'
+// //     'fcy fp'
+// //     'fd fcl'
+// //     'fv fs'
+// //     'fb fcr'
+// //     'ft fw';
+// // }
+
+// // .grid-container > p,
+// // header {
+// //   text-align: left;
+
+// //   padding-right: 120px;
+// //   font-size: 30px;
+// //   border: 1px solid;
+// // }
+// // p {
+// //   margin-top: 5px;
+// //   margin-bottom: 5px;
+// // }
+
+// //
+
+// // .grid-container {
+// //   width: 200px;
+// //   display: grid;
+// //   grid-template-columns: 'a a';
+// //   grid-auto-rows: minmax(100px, auto);
+
+// //   grid-template-areas:
+// //     'hd hd'
+// //     'fc  fl'
+// //     'fcy fp'
+// //     'fd fcl'
+// //     'fv fs'
+// //     'fb fcr'
+// //     'ft fw';
+// // }
+
+// // .header {
+// //   grid-column: 1/3;
+// //   grid-row: 1/2;
+// // }
+// // #grid > div {
+// //   background-color: lime;
+// // }
+
+// .form__container {
+//   padding: 2.5rem;
+//   width: 50rem;
+//   margin-left: 25rem;
+//   border: 1px solid #c2cfe0;
+//   border-radius: 0.313rem;
+// }
+// .businessform {
+//   margin-bottom: 0.625rem;
+// }
+// .inputbusiness {
+//   height: 2.5rem;
+//   border-color: #c2cfe0;
+//   border: 1px solid #c2cfe0;
+//   outline: none;
+// }
+// input,
+// textarea,
+// select {
+//   outline: none;
+//   border: 1px solid #c2cfe0;
+// }
+
+// .flex-container1 {
+//   display: flex;
+//   flex-direction: column;
+//   width: 100%;
+//   margin-bottom: 0.625rem;
+// }
+// .flex-container2 {
+//   justify-content: space-between;
+//   display: flex;
+//   flex-direction: row;
+//   margin-bottom: 0.625rem;
+//   width: 100%;
+// }
+// .categoryform {
+//   display: flex;
+//   flex-direction: row;
+// }
+// .categoryselect,.companylogo {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// .inputselect {
+//   height: 2.5rem;
+//   width: 22.063rem;
+//   margin-top: 0.625rem;
+// // }

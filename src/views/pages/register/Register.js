@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { useState, useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
@@ -46,8 +47,12 @@ function Register() {
       toast.error(message)
     }
 
-    if (isSuccess || user) {
+    if (isSuccess) {
       navigate('/')
+    }
+
+    if (user) {
+      navigate('/dashboard')
     }
 
     dispatch(reset())
